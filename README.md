@@ -10,7 +10,7 @@ The script is prepared to run the Raspberry in headless mode, once an internet c
 
 Annotations
 + The script uses the IoT REST gateway service because I had problems with the paho-mqtt library to establish a secure connection. Vice versa I wasn't able to access Sense HAT's sensor data when using NodeJS while mqtt works fine with NodeJS.
-+ The device certificate contains an encrypted private key and is therefore decrypted with the secret. The decrypted key is stored locally  in 'certificate.key'.
++ The downloaded device pem certificate contains an encrypted private key and will therefore be decrypted. The decrypted key is stored locally  in 'certificate.key'.
 
 ## Precondition 
 
@@ -41,8 +41,7 @@ Download your certificate as a pem file and place it into the script's folder.
 
 ![pem](https://github.com/jenska/python-rest-sensehat/blob/master/images/rasp005.JPG "pem")
 
-Rename 'configuration.json.bak ' to 'configuration.json' and enter your alternate ID's of your device and sensors.
-Also replace the pem file name.
+Copy the secret. Rename 'configuration.json.bak ' to 'configuration.json' and enter your tenant, the secret, your alternate ID's of your device and sensors. Also replace the pem file name.
 
 ## Run
 
