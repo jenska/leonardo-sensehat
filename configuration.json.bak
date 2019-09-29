@@ -1,0 +1,15 @@
+{
+    "pemFile": "<raspberry1-device_certificate.pem>",
+    "secret": "<>",
+    "instanceId": "<>",
+    "tenant": "https://<instanceId>.<eu10.cp.iot.sap>/iot/gateway/rest/measures/",
+    "deviceAlternateId": "<>",
+    "gyroscope": {
+        "sensorAlternateId": "<>",
+        "capabilityAlternateId": "<>"
+     },
+    "barometer": {
+        "sensorAlternateId": "<>",
+        "capabilityAlternateId": "<>"
+    }
+}
