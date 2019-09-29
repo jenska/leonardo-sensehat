@@ -4,7 +4,7 @@ Make a [Raspberry Pi](https://www.raspberrypi.org) with [Sense HAT](https://proj
 
 This python script was created as a showcase for the SAP Leonardo IoT capabilities. It reads some sensor data (enviroment data and gyrsocope data) from Sense HAT and sends the data to the SAP Cloud Platforms IoT service. 
 
-![SAP Leonardo Cockpit](https://github.com/jenska/python-rest-sensehast/images/rasp001.jpg SAP Leonardo Cockpit")
+![SAP Leonardo Cockpit](https://github.com/jenska/python-rest-sensehat/images/rasp001.JPG "SAP Leonardo Cockpit")
 
 ## Precondition 
 
